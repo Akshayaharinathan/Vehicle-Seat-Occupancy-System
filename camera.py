@@ -16,7 +16,7 @@ while True:
     headers = {"Content-Type": "application/json"}
     
     try:
-        response = requests.post('https://030f0fb7-01b1-4f10-ac37-ef946f269c19-00-sxa8p6gz3kq4.riker.replit.dev/c', json=data, headers=headers)
+        response = requests.post('https://a2624187-1683-464a-82d2-b3006519eab0-00-256vgi4swxk6a.picard.replit.dev/c', json=data, headers=headers)
         if response.status_code == 200:
             print("Data sent successfully.")
         else:
